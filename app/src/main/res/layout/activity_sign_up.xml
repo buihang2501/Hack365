@@ -108,12 +108,12 @@
             android:id="@+id/img_cmnd"
             android:layout_width="200dp"
             android:layout_height="150dp"
-            android:layout_marginStart="64dp"
             android:layout_marginTop="12dp"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
             android:src="@drawable/cmnd"
             app:layout_constraintStart_toStartOf="@id/edt_name"
+            app:layout_constraintEnd_toEndOf="@id/edt_name"
             app:layout_constraintTop_toBottomOf="@id/edt_repassword" />
 
         <Button
