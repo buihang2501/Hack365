@@ -73,9 +73,9 @@ public class Login extends AppCompatActivity {
                         if (document.exists()) {
                             String password = document.get("password").toString();
                             if(pass.equals(password)){
-                                Common.currentUser.setCmnd(cmnd);
-                                Common.currentUser.setName(document.get("name").toString());
-                                Intent home = new Intent(Login.this,MainActivity.class);
+//                                Common.currentUser.setCmnd(cmnd);
+//                                Common.currentUser.setName(document.get("name").toString());
+                                Intent home = new Intent(Login.this, MainActivity.class);
                                 startActivity(home);
                                 finish();
                             }else{

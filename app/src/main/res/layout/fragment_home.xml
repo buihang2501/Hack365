@@ -22,6 +22,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <LinearLayout
+            android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -66,7 +67,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/ic_muaban" />
+                    android:src="@drawable/muabaohiem" />
 
                 <TextView
                     android:textAlignment="center"
@@ -127,6 +128,49 @@
                     android:text="Tìm kiếm quyền lợi" />
 
             </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="9dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ưu đãi"
+                android:textColor="#1A2E35"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="219.11sp"
+                android:src="@drawable/uudai" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Giảm ngay 40% giá bảo hiểm khi lần đầu đăng ký"
+                android:textColor="#002A72"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Giảm giá 40% tất cả các sản phẩm bảo hiểm cho những người lần đầu đăng ký tài khoản tại Insu365."
+                android:textColor="#929292"
+                android:textSize="14sp"
+                android:textStyle="normal" />
 
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

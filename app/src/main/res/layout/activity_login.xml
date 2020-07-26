@@ -27,6 +27,7 @@
 
         <EditText
             android:id="@+id/edt_password"
+            android:inputType="textPassword"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorWhite"
