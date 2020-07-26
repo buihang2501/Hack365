@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hack365</string>
+    <string name="regester"><u>Đăng ký ngay</u></string>
+    <string name="signin">ĐĂNG NHẬP</string>
+    <string name="signup">ĐĂNG KÝ</string>
+    <string name="forgot_password">Quên mật khẩu</string>
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "952593942358",
+    "firebase_url": "https://hack365-186f9.firebaseio.com",
+    "project_id": "hack365-186f9",
+    "storage_bucket": "hack365-186f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952593942358:android:73d201cddc54ffe2f738f7",
+        "android_client_info": {
+          "package_name": "hangbt.hust.hack365"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952593942358-qc3r9vi3jk4fvka0o92dmec8b80d49a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh0yDq9bZ52MkK0wRI6qVyI6-cqUrACXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952593942358-qc3r9vi3jk4fvka0o92dmec8b80d49a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
